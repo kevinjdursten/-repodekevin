@@ -1,0 +1,58 @@
+:root{
+     --mivariable: red   
+
+}
+
+
+
+/*selectores html*/
+h1{
+    color: var(--mivariable);
+    background-color: black;
+    text-align: center;
+    font-family: "zedaya" cursive;
+ font-weight: 900;
+}
+p{
+    color: goldenrod;
+}
+body{
+    background-color: rgb(137, 182, 182);
+}
+
+
+/*selector ID*/
+#principal{
+    background-color: aqua;
+    font-family:'Segoe UI';
+
+    }:var(--mivariable)
+    color: hotpink;{
+
+    }
+    text-align: justify{
+
+    }
+    font-style: italic;{
+        
+    }
+
+
+
+#imagen1{
+    border-radius:50px ;
+    height: 100px;
+
+}
+
+
+/*selector class*/
+.secundarios{
+    color: deeppink;
+    font-size: 50px;
+    text-align: center ;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

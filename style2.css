@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    top:0px
+
+} 
+
+body{
+    background-color: darkcyan; color: white;
+    display:grid;
+    grid-template-columns: 8% 92%;
+    width: 100%;
+    }
+
+
+#cuadricula{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+}
+nav{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    gap : 10px;
+    align-items: center;
+
+}
+
+nav input{
+    display: flex;
+    width: 530px;
+    height: 40px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+.ImageVideo{
+    height:60px;
+}
+
+
+    
+
+
+
+
+
